@@ -20,7 +20,6 @@ import sam from './char/sam.jpg';
 import saruman from './char/saruman.jpg';
 import sauron from './char/sauron.jpg';
 import theoden from './char/theoden.jpg';
-import { createPortal } from "react-dom";
 
 function App() {
   const [score, setScore] = useState(0);
@@ -48,7 +47,13 @@ function App() {
 
  
  const characterClick = (id) => {
-  setPickedChars(pickedChars.concat(id));
+  if(!pickedChars.includes(id)) {
+    setScore(score + 1);
+    setPickedChars(pickedChars.concat(id));
+  } else {
+    setHighScore(score);
+    setScore(0);
+  };
  }
 
   return (
