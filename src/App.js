@@ -51,8 +51,11 @@ function App() {
     setScore(score + 1);
     setPickedChars(pickedChars.concat(id));
   } else {
-    setHighScore(score);
+    if(score > highScore) {
+      setHighScore(score);
+    };    
     setScore(0);
+    setPickedChars([]);
   };
  }
 
