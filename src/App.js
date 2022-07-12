@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Score from "./components/score";
 import HighScore from "./components/highScore";
-import Card from "./char/card";
+import Card from "./components/card";
 
 function App() {
   const [score, setScore] = useState(0);
