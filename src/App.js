@@ -20,6 +20,7 @@ import sam from './char/sam.jpg';
 import saruman from './char/saruman.jpg';
 import sauron from './char/sauron.jpg';
 import theoden from './char/theoden.jpg';
+import { createPortal } from "react-dom";
 
 function App() {
   const [score, setScore] = useState(0);
@@ -42,16 +43,19 @@ function App() {
     {id:uniqid(), name:'saruman', img:saruman},
     {id:uniqid(), name:'sauron', img:sauron},
     {id:uniqid(), name:'theoden', img:theoden},
- ]);
+  ]);
+  const [pickedChars, setPickedChars] = useState([]);
+
  
+ const characterClick = (id) => {
+  setPickedChars(pickedChars.concat(id));
+ }
 
   return (
-    
-
     <div>
       <Score score={score}/>
       <HighScore highScore={highScore}/>
-      <Card characters={characters}/>
+      <Card characters={characters} onClick={characterClick}/>
     </div>
   );
 }

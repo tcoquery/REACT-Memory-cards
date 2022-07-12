@@ -24,7 +24,7 @@ function Card(props) {
         <div>
             {randomChar.map((character) => {
                 return <div key={character.id}>
-                    <img alt={character.name} src={character.img} height='450px' width='450px'/>
+                    <img onClick={()=> {props.onClick(character.id)}} alt={character.name} src={character.img} height='450px' width='450px'/>
                 </div>
                 }
             )}
