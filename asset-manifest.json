@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/REACT-Memory-cards/static/css/main.780571c5.css",
+    "main.js": "/REACT-Memory-cards/static/js/main.cf7cde07.js",
+    "static/media/background.jpg": "/REACT-Memory-cards/static/media/background.027bd68ac8b1dec8ca6d.jpg",
+    "static/media/anirm.ttf": "/REACT-Memory-cards/static/media/anirm.1153b7f358f58c6ba6df.ttf",
+    "static/media/eowyn.jpg": "/REACT-Memory-cards/static/media/eowyn.dcbeaa4ed30a1688b472.jpg",
+    "static/media/gimli.jpg": "/REACT-Memory-cards/static/media/gimli.e7f69190c621e52e460a.jpg",
+    "static/media/elrond.jpg": "/REACT-Memory-cards/static/media/elrond.3ac0d1bc3c33c68b4e32.jpg",
+    "static/media/saruman.jpg": "/REACT-Memory-cards/static/media/saruman.8151287ef8b47c80624b.jpg",
+    "static/media/sauron.jpg": "/REACT-Memory-cards/static/media/sauron.66ad0afa3ae8a816d8f9.jpg",
+    "static/media/frodo.jpg": "/REACT-Memory-cards/static/media/frodo.7d871a264e94ca379d54.jpg",
+    "static/media/gandalf.jpg": "/REACT-Memory-cards/static/media/gandalf.8bff27332f188ad103fe.jpg",
+    "static/media/legolas.jpg": "/REACT-Memory-cards/static/media/legolas.afb2b8574830505334c3.jpg",
+    "static/media/aragorn.jpg": "/REACT-Memory-cards/static/media/aragorn.c5c72a07f7fef7b344d0.jpg",
+    "static/media/merry.jpg": "/REACT-Memory-cards/static/media/merry.0483b64e023b241cbdab.jpg",
+    "static/media/galadriel.jpg": "/REACT-Memory-cards/static/media/galadriel.405647a922715aa7f29b.jpg",
+    "static/media/pippin.jpg": "/REACT-Memory-cards/static/media/pippin.e1b0b324eae7da7a0ef1.jpg",
+    "static/media/sam.jpg": "/REACT-Memory-cards/static/media/sam.e52ffc4b72d91f63e5ba.jpg",
+    "static/media/theoden.jpg": "/REACT-Memory-cards/static/media/theoden.27d70e46cb0582976acc.jpg",
+    "static/media/boromir.jpg": "/REACT-Memory-cards/static/media/boromir.24a60a5e6e0686df905f.jpg",
+    "static/media/golum.jpg": "/REACT-Memory-cards/static/media/golum.539a7e886e09a6aa7afc.jpg",
+    "index.html": "/REACT-Memory-cards/index.html",
+    "main.780571c5.css.map": "/REACT-Memory-cards/static/css/main.780571c5.css.map",
+    "main.cf7cde07.js.map": "/REACT-Memory-cards/static/js/main.cf7cde07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.780571c5.css",
+    "static/js/main.cf7cde07.js"
+  ]
+}
