@@ -11,5 +11,6 @@ body {
     font-family: LOTR;
     background-image: url("background.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
