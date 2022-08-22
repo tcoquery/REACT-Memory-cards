@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: LOTR;
+    src: url(anirm.ttf);
+  }
+
+body {
+    font-family: LOTR;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: contain;
+}

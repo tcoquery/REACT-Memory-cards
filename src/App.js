@@ -2,9 +2,9 @@ import React, {useState} from "react";
 import uniqid from "uniqid";
 import Score from "./components/score";
 import HighScore from "./components/highScore";
+import Rules from "./components/rules";
 import Card from "./components/card";
 import aragorn from './char/aragorn.jpg';
-import bilbo from './char/bilbo.jpg';
 import boromir from './char/boromir.jpg';
 import elrond from './char/elrond.jpg';
 import eopwyn from './char/eowyn.jpg';
@@ -26,7 +26,6 @@ function App() {
   const [highScore, setHighScore] = useState(0);
   const [characters, setCharacters] = useState([
     {id:uniqid(), name:'aragorn', img:aragorn},
-    {id:uniqid(), name:'bilbo', img:bilbo},
     {id:uniqid(), name:'boromir', img:boromir},
     {id:uniqid(), name:'elrond', img:elrond},
     {id:uniqid(), name:'eopwyn', img:eopwyn},
@@ -61,6 +60,8 @@ function App() {
 
   return (
     <div>
+      <h1 class="container mx-auto text-white text-center text-4xl">"When in doubt, follow your nose."</h1>
+      <Rules />
       <Score score={score}/>
       <HighScore highScore={highScore}/>
       <Card characters={characters} onClick={characterClick}/>

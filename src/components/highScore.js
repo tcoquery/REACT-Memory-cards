@@ -1,5 +1,5 @@
 function HighScore(props) {
-    return <p>High Score: {props.highScore}</p>
+    return <p class="text-white">High Score: {props.highScore}</p>
 }
 
 export default HighScore
